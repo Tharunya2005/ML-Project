@@ -105,11 +105,11 @@ Serialized model file (breast_cancer_model.pkl).
 The trained model is saved as a pickle file for reuse:
 import pickle
 
-# Load the saved model
+**Load the saved model**
 with open('breast_cancer_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-# Use the model for prediction
+**Use the model for prediction**
 prediction = model.predict(new_data)
 print("Prediction:", prediction)
 
