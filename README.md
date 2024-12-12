@@ -46,30 +46,30 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 Import Libraries: Necessary libraries are imported for data processing, model training, evaluation, visualization, and serialization.
 
-Load and Explore Data:
+**Load and Explore Data:**
 The dataset is loaded using pandas.read_csv.
 Basic information, missing values, and sample rows are displayed.
 
-Data Preprocessing:
+**Data Preprocessing:**
 Unnecessary columns (id and Unnamed: 32) are dropped.
 Missing values in numeric columns are imputed using the mean strategy.
 The target variable (diagnosis) is mapped to binary values (0 for Benign, 1 for Malignant).
 
-Visualization:
+**Visualization:**
 A correlation heatmap is generated to analyze feature relationships.
 
-Model Training:
+**Model Training:**
 The dataset is split into training and testing sets using train_test_split.
 A Random Forest Classifier is trained on the training data.
 
-Evaluation:
+**Evaluation:**
 Predictions are made on the test set.
 Model performance is evaluated using a classification report and confusion matrix.
 
-Feature Importance:
+**Feature Importance:**
 The importance of each feature in prediction is visualized using a bar plot.
 
-Model Serialization:
+**Model Serialization:**
 The trained model is saved as a pickle file (breast_cancer_model.pkl) for later use.
 
 ***HOW TO RUN***
