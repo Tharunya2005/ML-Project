@@ -92,11 +92,11 @@ Serialized model file (breast_cancer_model.pkl).
 
 ***EXPECTED OUTPUTS***
 
-Correlation Heatmap: Displays relationships between features.
+**Correlation Heatmap:** Displays relationships between features.
 
-Classification Report: Shows precision, recall, F1-score, and accuracy.
+**Classification Report:** Shows precision, recall, F1-score, and accuracy.
 
-Confusion Matrix: Provides true positives, true negatives, false positives, and false negatives.
+**Confusion Matrix:** Provides true positives, true negatives, false positives, and false negatives.
 
-Feature Importance Plot: Highlights which features are most important for the predictions.
+**Feature Importance Plot:** Highlights which features are most important for the predictions.
 
