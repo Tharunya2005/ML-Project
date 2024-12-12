@@ -100,3 +100,16 @@ Serialized model file (breast_cancer_model.pkl).
 
 **Feature Importance Plot:** Highlights which features are most important for the predictions.
 
+***USAGE OF PICKLE FILE***
+
+The trained model is saved as a pickle file for reuse:
+import pickle
+
+# Load the saved model
+with open('breast_cancer_model.pkl', 'rb') as f:
+    model = pickle.load(f)
+
+# Use the model for prediction
+prediction = model.predict(new_data)
+print("Prediction:", prediction)
+
